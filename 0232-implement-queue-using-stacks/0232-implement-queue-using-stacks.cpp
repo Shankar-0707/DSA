@@ -6,31 +6,45 @@ stack<int> s1, s2;
     }
     
     void push(int x) {
-        while(!s1.empty()){
-            s2.push(s1.top());
-            s1.pop();
-        }
-
         s1.push(x);
-
-        while(!s2.empty()){
-            s1.push(s2.top());
-            s2.pop();
-        }
     }
     
     int pop() {
-        int elem = s1.top();
-        s1.pop();
-        return elem;
+        if(s2.size() != 0){
+            int elem = s2.top();
+            s2.pop();
+            return elem;
+        }
+        else{
+            while(!s1.empty()){
+                s2.push(s1.top());
+                s1.pop();
+            }
+
+            int elem = s2.top();
+            s2.pop();
+            return elem;
+        }
     }
     
     int peek() {
-        return s1.top();
+        if(s2.size() != 0){
+           
+            return s2.top();
+        }
+        else{
+            while(!s1.empty()){
+                s2.push(s1.top());
+                s1.pop();
+            }
+
+            
+            return s2.top();
+        }
     }
     
     bool empty() {
-        return s1.size() == 0;
+        return s2.size() == 0  && s1.size() == 0;
     }
 };
 
