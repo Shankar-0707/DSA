@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Shankar-0707/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Shankar-0707/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
 | [0146-lru-cache](https://github.com/Shankar-0707/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/Shankar-0707/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Shankar-0707/DSA/tree/master/0496-next-greater-element-i) |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Shankar-0707/DSA/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
 ## Sliding Window
 |  |
 | ------- |
