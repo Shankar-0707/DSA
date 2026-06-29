@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0020-valid-parentheses) |
+| [0151-reverse-words-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Shankar-0707/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Array
 |  |
@@ -105,4 +106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/Shankar-0707/DSA/tree/master/0901-online-stock-span) |
+## Two Pointers
+|  |
+| ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0151-reverse-words-in-a-string) |
 <!---LeetCode Topics End-->
