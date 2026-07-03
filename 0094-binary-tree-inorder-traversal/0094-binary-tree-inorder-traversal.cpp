@@ -11,24 +11,31 @@
  */
 class Solution {
 public:
-
-    void helper(TreeNode* root, vector<int>& ans){
-        if(!root) return;
-
-        // process kro left tk 
-        helper(root->left, ans);
-
-        // process kro node ko 
-        ans.push_back(root->val);
-
-        // process kro right tk 
-        helper(root->right, ans);
-    }
-
     vector<int> inorderTraversal(TreeNode* root) {
-        // Left Node Right
         vector<int> ans;
-        helper(root,ans);
+        TreeNode* curr = root;
+
+        while(curr){
+            if(curr->left == NULL){
+                // iska mtlb hmne left ki sari processing krli 
+                ans.push_back(curr->val);
+                curr = curr->right;
+            }
+            else{
+                TreeNode* leftChild = curr->left;
+
+                // find predecessor
+                while(leftChild->right){
+                    leftChild = leftChild->right;
+                }
+
+                leftChild->right = curr;
+                TreeNode* temp = curr;
+                curr = curr->left;
+                temp->left = NULL;
+            }
+        }
+
         return ans;
     }
 };
