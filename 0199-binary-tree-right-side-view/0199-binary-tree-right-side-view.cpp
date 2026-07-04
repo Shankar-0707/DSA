@@ -13,23 +13,20 @@ class Solution {
 public:
 
 
-    void solve(TreeNode* root, vector<int> &ans, unordered_map<int,int> &check, int level){
+    void solve(TreeNode* root, vector<int> &ans, int level){
         if(!root) return;
-        if(check[level] == 0){
+        if(ans.size() == level){
             ans.push_back(root->val);
-            check[level]++;
         }
 
-        solve(root->right, ans,check, level+1);
-        solve(root->left, ans,check, level+1);
+        solve(root->right, ans, level+1);
+        solve(root->left, ans, level+1);
         
     }
 
     vector<int> rightSideView(TreeNode* root) {
         vector<int> ans;
-        unordered_map<int,int> check;
-
-        solve(root, ans, check, 0);
+        solve(root, ans, 0);
         return ans;
     }
 };
