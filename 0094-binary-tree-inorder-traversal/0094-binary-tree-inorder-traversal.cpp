@@ -16,19 +16,21 @@ public:
         TreeNode* curr = root;
 
         while(curr){
-            if(curr->left == NULL){
-                // iska mtlb hmne left ki sari processing krli 
+            // jb tk curr node h chlte rho 
+            if(!curr->left){
+                // agar curr ka left nhih mtlb vhi left node h use process kro yani answer me adaldo 
                 ans.push_back(curr->val);
                 curr = curr->right;
             }
             else{
+                // mtlb ki uski left node h to iska mtlb h curr kisi na kisi ka predecessor hoga 
                 TreeNode* leftChild = curr->left;
 
-                // find predecessor
                 while(leftChild->right){
                     leftChild = leftChild->right;
                 }
 
+                // ab hme vo noe mil gyi h jiska predecessor curr hoga 
                 leftChild->right = curr;
                 TreeNode* temp = curr;
                 curr = curr->left;
