@@ -26,15 +26,26 @@ public:
                 // mtlb ki uski left node h to iska mtlb h curr kisi na kisi ka predecessor hoga 
                 TreeNode* leftChild = curr->left;
 
-                while(leftChild->right){
+                while(leftChild->right && leftChild->right != curr){
                     leftChild = leftChild->right;
                 }
+                if(!leftChild->right){
+                    leftChild->right = curr;
+                    curr = curr->left;
+                }
+                else{
+                    // mtlb vo already visited h cycle bn jaegi 
+                    leftChild->right = NULL;
+                    ans.push_back(curr->val);
+                    curr = curr->right;
+                }
+
 
                 // ab hme vo noe mil gyi h jiska predecessor curr hoga 
-                leftChild->right = curr;
-                TreeNode* temp = curr;
-                curr = curr->left;
-                temp->left = NULL;
+                // leftChild->right = curr;
+                // TreeNode* temp = curr;
+                // curr = curr->left;
+                // temp->left = NULL;
             }
         }
 
