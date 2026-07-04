@@ -11,23 +11,35 @@
  */
 class Solution {
 public:
-    vector<int> ans;
-
-    void helper(TreeNode* root){
-        if(!root) return;
-
-        // process kro current node ko 
-        ans.push_back(root->val);
-
-        // process kro left tk 
-        helper(root->left);
-
-        // process kro right tk 
-        helper(root->right);
-    }
-
     vector<int> preorderTraversal(TreeNode* root) {
-        helper(root);
+        vector<int> ans;
+        TreeNode* curr = root;
+
+        while(curr){
+            if(!curr->left){
+                ans.push_back(curr->val);
+                curr = curr->right;
+            }
+            else{
+                // find the predecessor
+                TreeNode* leftChild = curr->left;
+
+                while(leftChild->right && leftChild->right != curr){
+                    leftChild = leftChild->right;
+                }
+
+                if(!leftChild->right){
+                    leftChild->right = curr;
+                    ans.push_back(curr->val);
+                    curr = curr->left;
+                }
+                else{
+                    leftChild->right = NULL;
+                    curr = curr->right;
+                }
+            }
+        }
+
         return ans;
     }
 };
