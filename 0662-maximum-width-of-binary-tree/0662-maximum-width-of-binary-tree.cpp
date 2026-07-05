@@ -15,7 +15,7 @@ public:
         unsigned long long maxWidth = 0; // kyoki hm index store krenge or hr depth ke liye index 2^depth tk ja skta h 
         if(!root) return maxWidth;
         queue<pair<TreeNode* , int>> q;
-        q.push({root, 1}); // root ko index 1 manre h;
+        q.push({root, 0}); // root ko index 1 manre h;
 
         while(!q.empty()){
             unsigned long long size = q.size();
