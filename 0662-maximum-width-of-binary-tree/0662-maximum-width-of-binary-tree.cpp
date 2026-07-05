@@ -11,16 +11,18 @@
  */
 class Solution {
 public:
+    using ULL = unsigned long long; // type define krdia yha ise bi use kr skte h 
+
     int widthOfBinaryTree(TreeNode* root) {
         unsigned long long maxWidth = 0; // kyoki hm index store krenge or hr depth ke liye index 2^depth tk ja skta h 
         if(!root) return maxWidth;
-        queue<pair<TreeNode* , int>> q;
+        queue<pair<TreeNode* , unsigned long long>> q;
         q.push({root, 0}); // root ko index 0 manre h;
 
         while(!q.empty()){
             unsigned long long size = q.size();
             unsigned long long firstIndex = q.front().second;
-            unsigned long long lastIndex = q.back().second;
+            ULL lastIndex = q.back().second;
             unsigned long long currWidth = lastIndex-firstIndex+1;
             maxWidth = max(maxWidth, currWidth);
 
