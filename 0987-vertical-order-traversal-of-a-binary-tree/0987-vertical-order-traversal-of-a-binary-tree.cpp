@@ -36,9 +36,9 @@ public:
                 q.push({temp->right, {row+1, col+1}});
             }
         }
-        for(auto i : mp){
+        for(auto &i : mp){
             vector<int> temp;
-            for(auto j : i.second){
+            for(auto &j : i.second){
                 for(auto k : j.second){
                     temp.push_back(k);
                 }
