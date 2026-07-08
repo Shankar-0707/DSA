@@ -22,6 +22,8 @@ public:
         return -1;
     }
 
+    unordered_map<int,int> mp;
+
     TreeNode* solve(vector<int>& preorder, vector<int>& inorder, int &preOrderIndex, int inorderStart, int inorderEnd, int size){
         // base case
         if(preOrderIndex >= size || inorderStart > inorderEnd) return NULL;
@@ -34,7 +36,8 @@ public:
         TreeNode* node = new TreeNode(element);
 
         // getIndex of this element 
-        int index = getIndex(element, inorder);
+        // int index = getIndex(element, inorder);
+        int index = mp[element];
 
         // call left side
         node->left = solve(preorder, inorder, preOrderIndex, inorderStart, index-1, size);
@@ -50,6 +53,9 @@ public:
         int size = inorder.size(); // total size of array 
         int inorderStart = 0; // starting index of inorder
         int inorderEnd = size-1; // ending index of inorder
+        for(int i=0; i<inorder.size(); i++){
+            mp[inorder[i]] = i;
+        }
         return solve(preorder, inorder, preOrderIndex, inorderStart, inorderEnd, size);
     }
 };
