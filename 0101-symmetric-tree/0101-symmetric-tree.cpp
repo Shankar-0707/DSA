@@ -30,5 +30,7 @@ public:
         return oneA && oneB;
     }
 
-    bool isSymmetric(TreeNode* root) { return solve(root, root); }
+    bool isSymmetric(TreeNode* root) { 
+        if(!root) return true;
+        return solve(root->left, root->right); }
 };
