@@ -9,37 +9,67 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
-public:
 
-    void inorder_traversal(TreeNode* root, vector<int> &inorder){
-        if(!root) return;
+class BSTIterator{
+    private:
+        stack<TreeNode* > s;
+        bool reverse = true; // true ka mtlbb h before and false ka mtlb h simple next wala 
+        void pushAll(TreeNode* root){
+            while(root){
+                s.push(root);
+                if(reverse){
+                    root = root->right;
+                }
+                else{
+                    root = root->left;
+                }
+            }
+        }
 
-        inorder_traversal(root->left, inorder);
+    public:
+        BSTIterator(TreeNode* root, bool isReverse){
+            reverse = isReverse;
+            pushAll(root);
+        }
 
-        inorder.push_back(root->val);
+        bool hasnext(){
+            return !s.empty();
+        }
 
-        inorder_traversal(root->right, inorder);
-    }
+        int next(){
+            auto node = s.top();
+            s.pop();
 
-    bool findTarget(TreeNode* root, int k) {
-        vector<int> inorder;
-        inorder_traversal(root, inorder);
-
-        // yha per inorder ki array bn gyi 
-        int n = inorder.size();
-        int s = 0;
-        int e = n-1;
-
-        while(s<e){
-            int sum = inorder[s] + inorder[e];
-
-            if(sum == k) return true;
-            else if(sum > k){
-                e--;
+            if(!reverse){
+                pushAll(node->right);
             }
             else{
-                s++;
+                pushAll(node->left);
+            }
+
+            return node->val;
+        }
+};
+
+
+
+class Solution {
+public:
+    bool findTarget(TreeNode* root, int k) {
+        if(!root) return false;
+        BSTIterator l(root, false);
+        BSTIterator r(root, true);
+
+        int i = l.next();
+        int j = r.next();
+
+        while(i<j){
+            if(i + j == k) return true;
+            else if(i+j < k){
+                i = l.next();
+            }
+            else{
+                j = r.next();
             }
         }
 
