@@ -12,38 +12,39 @@
 
 class INFO{
     public:
-    int minVal, maxVal, sum;
-    bool isBST;
+        int minVal, maxVal, sum;
+        bool isBST;
 };
+
 
 
 class Solution {
 public:
 
-
-    INFO solve(TreeNode* root, int &sum){
+    INFO solve(TreeNode* root, int &ans){
         if(!root){
             INFO temp;
             temp.minVal = INT_MAX;
             temp.maxVal = INT_MIN;
             temp.sum = 0;
-            temp.isBST = 1;
+            temp.isBST = 1; // every NULL node can be bst
             return temp;
         }
 
-        // LRN
-        INFO left = solve(root->left, sum);
-        INFO right = solve(root->right, sum);
+        INFO left = solve(root->left, ans);
+        INFO right = solve(root->right, ans);
 
         INFO curr;
         curr.minVal = min(left.minVal, min(right.minVal, root->val));
         curr.maxVal = max(left.maxVal, max(right.maxVal, root->val));
         curr.sum = left.sum + right.sum + root->val;
+
         curr.isBST = (root->val > left.maxVal && root->val < right.minVal && left.isBST && right.isBST);
 
         if(curr.isBST){
-            sum = max(sum, curr.sum);
+            ans = max(ans, curr.sum);
         }
+
         return curr;
     }
 
