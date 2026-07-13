@@ -288,4 +288,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Shankar-0707/DSA/tree/master/0173-binary-search-tree-iterator) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/Shankar-0707/DSA/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
