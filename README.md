@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Shankar-0707/DSA/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Shankar-0707/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/Shankar-0707/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0460-lfu-cache](https://github.com/Shankar-0707/DSA/tree/master/0460-lfu-cache) |
 | [0901-online-stock-span](https://github.com/Shankar-0707/DSA/tree/master/0901-online-stock-span) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Shankar-0707/DSA/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/Shankar-0707/DSA/tree/master/0901-online-stock-span) |
 ## Two Pointers
 |  |
@@ -153,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Shankar-0707/DSA/tree/master/0165-compare-version-numbers) |
+| [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shankar-0707/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Dynamic Programming
 |  |
@@ -174,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
+| [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1331-rank-transform-of-an-array](https://github.com/Shankar-0707/DSA/tree/master/1331-rank-transform-of-an-array) |
 ## Tree
