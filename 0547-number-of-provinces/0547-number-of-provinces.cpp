@@ -1,12 +1,11 @@
 class Solution {
 public:
-
-
-    void dfs(int node, vector<vector<int>>& isConnected, vector<bool>& visited){
+    void dfs(int node, vector<vector<int>>& isConnected,
+             vector<bool>& visited) {
         visited[node] = 1;
 
-        for(int j=0; j<isConnected.size(); j++){
-            if(isConnected[node][j] && !visited[j]){
+        for (int j = 0; j < isConnected.size(); j++) {
+            if (isConnected[node][j] && !visited[j]) {
                 dfs(j, isConnected, visited);
             }
         }
@@ -17,11 +16,24 @@ public:
 
         vector<bool> visited(n, 0);
         int ans = 0;
-        for(int i=0; i<n; i++){
-            if(!visited[i]){
-                // agar ith node viisited nhi h to phle uske sare nneigbours per chle jao 
+        queue<int> q;
+
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
                 ans++;
-                dfs(i, isConnected, visited);
+                q.push(i);
+                visited[i] = 1;
+            }
+            while (!q.empty()) {
+                int node = q.front();
+                q.pop();
+
+                for (int j = 0; j < n; j++) {
+                    if (isConnected[node][j] == 1 && !visited[j]) {
+                        q.push(j);
+                        visited[j] = 1;
+                    }
+                }
             }
         }
 
