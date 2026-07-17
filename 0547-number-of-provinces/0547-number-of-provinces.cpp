@@ -23,13 +23,13 @@ public:
                 if(i == j) continue;
                 else{
                     if(isConnected[i][j] == 1){
-                        adjList[i].push_back(j);
+                        adjList[i+1].push_back(j+1);
                     }
                 }
             }
         }
         // We have created adjList list now track the ans by any search bfs or dfs
-        for(int i=0; i<n; i++){
+        for(int i=1; i<=n; i++){
             if(!visited[i]){
                 ans++;
                 dfs(i);
