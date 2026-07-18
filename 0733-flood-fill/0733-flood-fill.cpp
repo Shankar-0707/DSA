@@ -1,35 +1,30 @@
 class Solution {
 public:
-    void solve(vector<vector<int>>& image, int rows, int cols, int row, int col,
-               int originalColor, int color) {
-        // base case
-        if (row < 0 || row >= rows || col < 0 || col >= cols)
-            return;
 
-        int currColor = image[row][col];
-        if (currColor != originalColor)
-            return;
+    void solve(vector<vector<int>>& image, int sr, int sc, int color, int originalColor, vector<vector<bool>> &visited){
+        if(sr < 0 || sr >= image.size() || sc < 0 || sc >= image[0].size()) return;
 
-        image[row][col] = color;
-        solve(image, rows, cols, row + 1, col, originalColor, color);
-        solve(image, rows, cols, row - 1, col, originalColor, color);
-        solve(image, rows, cols, row, col + 1, originalColor, color);
-        solve(image, rows, cols, row, col - 1, originalColor, color);
+        if(visited[sr][sc]) return;
+        if(image[sr][sc] != originalColor) return;
+        
+        if(image[sr][sc] == originalColor && !visited[sr][sc]){
+            image[sr][sc] = color;
+            visited[sr][sc] = true;
+        }
+
+        solve(image, sr-1, sc, color, originalColor, visited);
+        solve(image, sr+1, sc, color, originalColor, visited);
+        solve(image, sr, sc-1, color, originalColor, visited);
+        solve(image, sr, sc+1, color, originalColor, visited);
     }
 
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc,
-                                  int color) {
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        int m = image.size();
+        int n = image[0].size();
         int originalColor = image[sr][sc];
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
 
-        if (originalColor == color)
-            return image;
-        int rows = image.size();
-        int cols = image[0].size();
-
-        int row = sr;
-        int col = sc;
-
-        solve(image, rows, cols, row, col, originalColor, color);
+        solve(image, sr, sc, color, originalColor, visited);
         return image;
     }
 };
