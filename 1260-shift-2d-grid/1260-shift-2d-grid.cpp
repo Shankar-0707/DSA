@@ -4,30 +4,24 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<int> elements;
+        while(k--){
+            int last = grid[m-1][n-1];
 
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                elements.push_back(grid[i][j]);
+            for(int row = m-1; row >= 0; row--){
+                for(int col = n-1; col >=0; col--){
+                    if(row == 0 && col == 0){
+                        grid[row][col] = last;
+                    }
+                    else if(col == 0 && row > 0){
+                        grid[row][col] = grid[row-1][n-1];
+                    }
+                    else{
+                        grid[row][col] = grid[row][col-1];
+                    }
+                }
             }
         }
-
-        int shift = k % elements.size();
-        reverse(elements.begin(), elements.end());
-        reverse(elements.begin(), elements.begin()+shift);
-        reverse(elements.begin()+shift, elements.end());
-
-        int idx = 0;
-
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                grid[i][j] = elements[idx];
-                idx++;
-            }
-        }
-
 
         return grid;
-
     }
 };
