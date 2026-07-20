@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Shankar-0707/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/Shankar-0707/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Shankar-0707/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Shankar-0707/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Shankar-0707/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
+| [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
 ## Graph Theory
 |  |
 | ------- |
@@ -370,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Shankar-0707/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Combinatorics
 |  |
