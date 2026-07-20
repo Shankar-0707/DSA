@@ -1,28 +1,36 @@
 class Solution {
-private:
-    bool dfs(int node, int col, vector<int>& color,vector<vector<int>>& graph){
-        color[node] = col;
+public:
 
-        for(auto nbr : graph[node]){
-            if(color[nbr] == -1){
-                if(dfs(nbr, !col, color, graph) == false) return false;
+    bool check(int node, vector<int>& color, vector<vector<int>>& graph){
+        queue<int> q;
+        q.push(node);
+        color[node] = 0;
+
+        while(!q.empty()){
+            auto n = q.front();
+            q.pop();
+
+            for(auto nbr : graph[n]){
+                if(color[nbr] == -1){
+                    color[nbr] = !color[n];
+                    q.push(nbr);
+                }
+                else if(color[nbr] == color[n]){
+                    return false;
+                }
             }
-            else if(color[nbr] == col) return false;
         }
-
         return true;
     }
-public:
-    bool isBipartite(vector<vector<int>>& graph) {
-        // yha per graph vector is adjlist ki trah h 
-        int V = graph.size();
 
+    bool isBipartite(vector<vector<int>>& graph) {
+        int V = graph.size();
         vector<int> color(V, -1);
 
         for(int i=0; i<V; i++){
-           if(color[i] == -1){
-             if(dfs(i, 0, color, graph) == false) return false;
-           }
+            if(color[i] == -1){
+                if(check(i, color, graph) == false) return false;
+            }
         }
 
         return true;
