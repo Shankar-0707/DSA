@@ -2,20 +2,22 @@ class Solution {
 public:
     int maxProduct(vector<int>& nums) {
         int n = nums.size();
-        int maxi = nums[0];
-        int mini = nums[0];
-        if(n == 1) return nums[0];
+
+        // dpMax[i] = ye btayega ki is index per end hone wla abse bda product kya h 
+        // dpMin[i] = ye btayega ki is index per end hone wla sbse chota min product kya h 
+        vector<int> dpMax(n);
+        vector<int> dpMin(n);
+
+        dpMax[0] = nums[0];
+        dpMin[0] = nums[0];
 
         int ans = nums[0];
+
         for(int i=1; i<n; i++){
-            if(nums[i] < 0){
-                swap(mini, maxi);
-            }
-            mini = min(nums[i], nums[i]*mini);
-            maxi = max(nums[i], nums[i]*maxi);
+            dpMax[i] = max({nums[i], nums[i]*dpMax[i-1], nums[i]*dpMin[i-1]});
+            dpMin[i] = min({nums[i], nums[i]*dpMax[i-1], nums[i]*dpMin[i-1]});
 
-
-            ans = max(ans, maxi);
+            ans = max(ans, dpMax[i]);
         }
 
         return ans;
