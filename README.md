@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/Shankar-0707/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0686-repeated-string-match](https://github.com/Shankar-0707/DSA/tree/master/0686-repeated-string-match) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Shankar-0707/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1143-longest-common-subsequence](https://github.com/Shankar-0707/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Shankar-0707/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Shankar-0707/DSA/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Shankar-0707/DSA/tree/master/3499-maximize-active-section-with-trade-i) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Shankar-0707/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Shankar-0707/DSA/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [1143-longest-common-subsequence](https://github.com/Shankar-0707/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Shankar-0707/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Trie
