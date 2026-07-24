@@ -19,7 +19,7 @@ public:
 
 
         if(word1[i] == word2[j]){
-            return solve(word1, word2, i+1, j+1, dp);
+            return dp[i][j] =  solve(word1, word2, i+1, j+1, dp);
         }
 
         // yha hm teeno case guess krenge 
@@ -32,10 +32,38 @@ public:
         return dp[i][j] = min({insert, del, rep});
     }
 
+    int tab(string& word1, string& word2){
+        int n1 = word1.length();
+        int n2 = word2.length();
+
+        vector<vector<int>> dp(n1+1, vector<int>(n2+1, 0));
+
+        for(int i=n2; i>=0; i--){
+            dp[n1][i] = n2-i;
+        }
+
+        for(int i=n1; i>=0; i--){
+            dp[i][n2] = n1-i;
+        }
+
+        for(int i=n1-1; i>=0; i--){
+            for(int j=n2-1; j>=0; j--){
+                if(word1[i] == word2[j]){
+                    dp[i][j] = dp[i+1][j+1];
+                }
+                else{
+                    dp[i][j] = 1 + min({dp[i][j+1], dp[i+1][j], dp[i+1][j+1]});
+                }
+            }
+        }
+
+        return dp[0][0];
+    }
+
     int minDistance(string word1, string word2) {
         int n1 = word1.length();
         int n2 = word2.length();
-        vector<vector<int>> dp(n1, vector<int>(n2, -1));
-        return solve(word1, word2, 0, 0, dp);
+        // vector<vector<int>> dp(n1, vector<int>(n2, -1));
+        return tab(word1, word2);
     }
 };
