@@ -60,10 +60,37 @@ public:
         return dp[0][0];
     }
 
+    int so(string &word1, string &word2){
+        int n1 = word1.length();
+        int n2 = word2.length();
+
+        vector<int> curr(n2+1);
+        vector<int> next(n2+1);
+
+        for(int j=0; j<=n2; j++){
+            next[j] = n2-j;
+        }
+
+        for(int i=n1-1; i>=0; i--){
+            curr[n2] = n1 - i; 
+            for(int j=n2-1; j>=0; j--){
+                if(word1[i] == word2[j]){
+                    curr[j] = next[j+1];
+                }
+                else{
+                    curr[j] = 1 + min({curr[j+1], next[j], next[j+1]});
+                }
+            }
+            next = curr;
+        }
+
+        return next[0];
+    }
+
     int minDistance(string word1, string word2) {
         int n1 = word1.length();
         int n2 = word2.length();
         // vector<vector<int>> dp(n1, vector<int>(n2, -1));
-        return tab(word1, word2);
+        return so(word1, word2);
     }
 };
