@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0496-next-greater-element-i](https://github.com/Shankar-0707/DSA/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Shankar-0707/DSA/tree/master/0518-coin-change-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Shankar-0707/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Shankar-0707/DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Shankar-0707/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Shankar-0707/DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Shankar-0707/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1331-rank-transform-of-an-array](https://github.com/Shankar-0707/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3536-maximum-product-of-two-digits](https://github.com/Shankar-0707/DSA/tree/master/3536-maximum-product-of-two-digits) |
