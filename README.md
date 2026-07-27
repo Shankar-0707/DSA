@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Shankar-0707/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Shankar-0707/DSA/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Shankar-0707/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/Shankar-0707/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Shankar-0707/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Shankar-0707/DSA/tree/master/0165-compare-version-numbers) |
+| [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0316-remove-duplicate-letters](https://github.com/Shankar-0707/DSA/tree/master/0316-remove-duplicate-letters) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Shankar-0707/DSA/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/Shankar-0707/DSA/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0460-lfu-cache](https://github.com/Shankar-0707/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Shankar-0707/DSA/tree/master/0496-next-greater-element-i) |
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Shankar-0707/DSA/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 ## String Matching
 |  |
 | ------- |
