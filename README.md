@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Shankar-0707/DSA/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Shankar-0707/DSA/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Shankar-0707/DSA/tree/master/0518-coin-change-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Shankar-0707/DSA/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0460-lfu-cache](https://github.com/Shankar-0707/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Shankar-0707/DSA/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shankar-0707/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Shankar-0707/DSA/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## String Matching
 |  |
 | ------- |
@@ -447,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Shankar-0707/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Shankar-0707/DSA/tree/master/3514-number-of-unique-xor-triplets-ii) |
 ## Memoization
