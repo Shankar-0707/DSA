@@ -9,7 +9,6 @@ public:
 
         sort(freq.begin(), freq.end());
         reverse(freq.begin(), freq.end());;
-        unordered_map<int,int> mp; // ye btayeega ki ye character minimum kitne pushes pe mapped h 
         int ans = 0;
         int push = 1;
         for(int i=0; i<freq.size(); i++){
