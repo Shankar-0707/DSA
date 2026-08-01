@@ -8,34 +8,20 @@ public:
             indexes[nums[i]].push_back(i);
         }
 
-        // sort krenge and then apply krenge two pointers 
-        sort(nums.begin(), nums.end());
+        // rather then sorting hm ek linear loop chalyenge or hr ek elemnet milne per check krenge ky atarget - that element present h hmare map me or aagar h to uska index agar is element ke index ke equal nhi hua to vhi return krende
 
-        int a = 0;
-        int b = n-1;
-
-        while(a < b){
-            // a <= b isiliye nhi rkha kyoki a == b pe ek hi element ko twice time include krlete jo ki nhi kr skte 
-
-            int sum = nums[a] + nums[b];
-            if(sum == target){
-                // return krna h khuch
-                if(nums[a] != nums[b]){
-                    // yani ki dono hi value alag alag h to simple dono ke indexes return krdo 
-                    return {indexes[nums[a]][0], indexes[nums[b]][0]};
-                } 
-                else{
-                    return {indexes[nums[a]][0], indexes[nums[b]][1]};
+        for(int i=0; i<n; i++){
+            int elem = nums[i];
+            if(indexes.find(target-elem) != indexes.end()){
+                // iska mtlb h ki vo element present h 
+                for(auto idx : indexes[target-elem]){
+                    if(idx != i){
+                        return {i, idx};
+                    }
                 }
-            }
-            else if(sum < target){
-                a++;
-            }
-            else{
-                b--;
             }
         }
 
-        return {-1,-1};
+        return {-1, -1};
     }
 };
