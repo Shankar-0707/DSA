@@ -3,16 +3,12 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         // Method 1 using map 
         int n = nums.size();
-        unordered_map<int,int> freq;
+        unordered_set<int> s;
 
         for(auto num : nums){
-            freq[num]++;
+            s.insert(num);
         }
 
-        for(auto it : freq){
-            if(it.second >= 2) return true;
-        }
-
-        return false;
+        return !(s.size() == n);
     }
 };
