@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/Shankar-0707/DSA/tree/master/0152-maximum-product-subarray) |
 | [0200-number-of-islands](https://github.com/Shankar-0707/DSA/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Shankar-0707/DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/Shankar-0707/DSA/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/Shankar-0707/DSA/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/Shankar-0707/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0460-lfu-cache](https://github.com/Shankar-0707/DSA/tree/master/0460-lfu-cache) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Shankar-0707/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
