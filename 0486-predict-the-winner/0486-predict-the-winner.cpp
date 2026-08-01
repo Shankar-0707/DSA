@@ -21,7 +21,7 @@ public:
         bool one = solve(nums, score1 , score2 + nums[i], i + 1, j, !turn);
         bool two = solve(nums, score1 , score2 + nums[j], i, j - 1, !turn);
 
-        return one && two;
+        return one && two; // uyha per && isiliye kyoki player2 agar ek me bhi jeet gya to vo vhi move choose krega obv isiliye player1 ko jitne ke liye player2 ko dono move me harnaa pdega 
     }
 
     bool predictTheWinner(vector<int>& nums) {
