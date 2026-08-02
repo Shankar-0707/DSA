@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Shankar-0707/DSA/tree/master/0518-coin-change-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
+| [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Shankar-0707/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
 | [0887-super-egg-drop](https://github.com/Shankar-0707/DSA/tree/master/0887-super-egg-drop) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Shankar-0707/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shankar-0707/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -249,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
 | [0518-coin-change-ii](https://github.com/Shankar-0707/DSA/tree/master/0518-coin-change-ii) |
+| [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
 | [0887-super-egg-drop](https://github.com/Shankar-0707/DSA/tree/master/0887-super-egg-drop) |
 | [1143-longest-common-subsequence](https://github.com/Shankar-0707/DSA/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Shankar-0707/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -499,4 +502,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
