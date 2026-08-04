@@ -2,29 +2,30 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
         int n = nums.size();
-        int s = 0;
-        int e = n-1;
+        int low = 0;
+        int high = n-1;
 
-        while(s <= e){
-            int mid = s + (e-s)/2;
+        while(low <= high){
+            int mid = low + (high-low)/2;
 
-            if(nums[mid] == target){
-                return mid;
-            }
-            else if(nums[mid] > target){
-                if(target < nums[s]){
-                    s = mid+1;
+            if(nums[mid] == target) return mid;
+            else if(nums[mid] >= nums[low]){
+                // left part sorted h 
+                if(target >= nums[low] && target < nums[mid]){
+                    // iska mtlb mid se phle h target 
+                    high = mid-1;
                 }
                 else{
-                    e = mid-1;
+                    low = mid+1;
                 }
             }
             else{
-                if(target >= nums[s]){
-                    e = mid-1;
+                // right part sorted hoga 
+                if(target > nums[mid] && target <= nums[high]){
+                    low = mid+1;
                 }
                 else{
-                    s = mid+1;
+                    high = mid-1;
                 }
             }
         }
