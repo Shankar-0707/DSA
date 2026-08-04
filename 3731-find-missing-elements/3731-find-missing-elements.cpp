@@ -11,11 +11,21 @@ public:
         for(int i = smallest + 1; i<largest; i++){
             int target = i;
             bool found = false;
-            for(int j= 1; j<n-1; j++){
-                if(nums[j] == i){
-                   found = true;
+            int a = 1; int b = n-2;
+            while(a <= b){
+                int mid = a + (b-a)/2;
+                if(nums[mid] == target){
+                    found = true;
+                    break;
+                }
+                else if(target > nums[mid]){
+                    a = mid+1;
+                }
+                else{
+                    b = mid-1;
                 }
             }
+
             if(!found){
                 ans.push_back(i);
             }
