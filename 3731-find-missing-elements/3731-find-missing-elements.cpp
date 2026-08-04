@@ -2,31 +2,19 @@ class Solution {
 public:
     vector<int> findMissingElements(vector<int>& nums) {
         int n = nums.size();
-        sort(nums.begin(), nums.end());
+        int mini = INT_MAX;
+        int maxi = INT_MIN;
 
-        int smallest = nums[0];
-        int largest = nums[n-1];
+        for(auto num : nums){
+            maxi = max(maxi, num);
+            mini = min(mini, num);
+        }
+
+        unordered_set<int> s(nums.begin(), nums.end());
         vector<int> ans;
 
-        for(int i = smallest + 1; i<largest; i++){
-            int target = i;
-            bool found = false;
-            int a = 1; int b = n-2;
-            while(a <= b){
-                int mid = a + (b-a)/2;
-                if(nums[mid] == target){
-                    found = true;
-                    break;
-                }
-                else if(target > nums[mid]){
-                    a = mid+1;
-                }
-                else{
-                    b = mid-1;
-                }
-            }
-
-            if(!found){
+        for(int i=mini+1; i<maxi; i++){
+            if(s.find(i) == s.end()){
                 ans.push_back(i);
             }
         }
