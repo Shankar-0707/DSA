@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Shankar-0707/DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
+| [0371-sum-of-two-integers](https://github.com/Shankar-0707/DSA/tree/master/0371-sum-of-two-integers) |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shankar-0707/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0371-sum-of-two-integers](https://github.com/Shankar-0707/DSA/tree/master/0371-sum-of-two-integers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Shankar-0707/DSA/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Shankar-0707/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
