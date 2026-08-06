@@ -1,22 +1,19 @@
 class Solution {
 public:
-
-    int getSetBits(int n){
-        int ans = 0;
-        while(n){
-            int bit = n&1;
-            if(bit) ans++;
-            n = n >> 1;
-        }
-        return ans;
-    }
-
     vector<int> countBits(int n) {
-        vector<int> ans(n+1, 0);
+        if( n == 0 ) return {0};
+        if( n == 1 ) return {0, 1};
 
-        for(int i=0; i<=n; i++){
-            int no_bits = getSetBits(i);
-            ans[i] = no_bits;
+        vector<int> ans(n+1, 0);
+        ans[0] = 0;
+        ans[1] = 1;
+
+        for(int i=2; i<=n; i++){
+            bool odd = (i & 1) == 1 ? true : false;
+
+            int prev = ans[i/2];
+
+            ans[i] = prev + (odd ? 1 : 0);
         }
 
         return ans;
