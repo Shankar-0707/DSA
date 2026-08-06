@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Shankar-0707/DSA/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0338-counting-bits](https://github.com/Shankar-0707/DSA/tree/master/0338-counting-bits) |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
 | [0518-coin-change-ii](https://github.com/Shankar-0707/DSA/tree/master/0518-coin-change-ii) |
 | [0877-stone-game](https://github.com/Shankar-0707/DSA/tree/master/0877-stone-game) |
@@ -507,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/Shankar-0707/DSA/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/Shankar-0707/DSA/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Shankar-0707/DSA/tree/master/0371-sum-of-two-integers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Shankar-0707/DSA/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Shankar-0707/DSA/tree/master/1707-maximum-xor-with-an-element-from-array) |
