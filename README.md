@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2390-removing-stars-from-a-string](https://github.com/Shankar-0707/DSA/tree/master/2390-removing-stars-from-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shankar-0707/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Shankar-0707/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Shankar-0707/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Shankar-0707/DSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Shankar-0707/DSA/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Shankar-0707/DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/Shankar-0707/DSA/tree/master/0165-compare-version-numbers) |
 | [0295-find-median-from-data-stream](https://github.com/Shankar-0707/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shankar-0707/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Shankar-0707/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Shankar-0707/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
@@ -282,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Shankar-0707/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1406-stone-game-iii](https://github.com/Shankar-0707/DSA/tree/master/1406-stone-game-iii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Shankar-0707/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Trie
 |  |
 | ------- |
@@ -513,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Shankar-0707/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shankar-0707/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Shankar-0707/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Shankar-0707/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Shankar-0707/DSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Bit Manipulation
 |  |
