@@ -2,9 +2,13 @@ class Solution {
 public:
     int maxSubarrayLength(vector<int>& nums, int k) {
         unordered_map<int, int> freq; // To store the continuous freq of the elements in Array
+
         int left = 0; // Left for calculating the previous information about the elements and right for traversing the array 
+
         int ans = 0;
+
         for(int right = 0; right < nums.size(); right++){
+            
             // Step 1 -> increase the freq of the new element
             freq[nums[right]]++;
 
