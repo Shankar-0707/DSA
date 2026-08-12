@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Shankar-0707/DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Shankar-0707/DSA/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/Shankar-0707/DSA/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Shankar-0707/DSA/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/Shankar-0707/DSA/tree/master/0371-sum-of-two-integers) |
 | [0486-predict-the-winner](https://github.com/Shankar-0707/DSA/tree/master/0486-predict-the-winner) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Shankar-0707/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Shankar-0707/DSA/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/Shankar-0707/DSA/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/Shankar-0707/DSA/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Shankar-0707/DSA/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shankar-0707/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Shankar-0707/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -547,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Shankar-0707/DSA/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/Shankar-0707/DSA/tree/master/0509-fibonacci-number) |
 ## Backtracking
