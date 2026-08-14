@@ -4,19 +4,22 @@ public:
         int n = nums.size();
 
         vector<int> prefix(n, 1);
-        int suffix = 1;
+        vector<int> suffix(n, 1);
 
         for(int i=1; i<n; i++){
-            prefix[i] = prefix[i-1] * nums[i-1];
+            prefix[i] = nums[i-1] * prefix[i-1];
         }
 
-        for(int i=n-1; i>=0; i--){
-            prefix[i]*= suffix;
-            suffix*= nums[i]; 
+        for(int i=n-2; i>=0; i--){
+            suffix[i] = nums[i+1] * suffix[i+1];
         }
 
-        
+        vector<int> answer(n, 0);
 
-        return prefix;
+        for(int i=0; i<n; i++){
+            answer[i] = prefix[i] * suffix[i];
+        }
+
+        return answer;
     }
 };
