@@ -1,26 +1,25 @@
 class Solution {
 public:
+    int t[1001][1001];
+    int solve(string& text1, string& text2, int i, int j) {
+        // base case
+        if (i >= text1.length() || j >= text2.length())
+            return 0;
 
-    int solve(int i, int j, string& text1, string& text2, vector<vector<int>> &dp){
-        if(i >= text1.length() || j >= text2.length()) return 0;
+        if(t[i][j] != -1) return t[i][j];
 
-        if(dp[i][j] != -1) return dp[i][j];
-
-        if(text1[i] == text2[j]){
-            return dp[i][j] =  1 + solve(i+1, j+1, text1, text2, dp);
+        // if char are equal
+        if (text1[i] == text2[j]) {
+            return t[i][j] =  1 + solve(text1, text2, i + 1, j + 1);
         }
+        int one = solve(text1, text2, i + 1, j);
+        int two = solve(text1, text2, i, j + 1);
 
-        int one = solve(i, j+1, text1, text2, dp);
-        int two = solve(i+1, j, text1, text2, dp);
-
-        return dp[i][j] = max(one, two);
+        return t[i][j] = max(one, two);
     }
 
     int longestCommonSubsequence(string text1, string text2) {
-        int n1 = text1.length();
-        int n2 = text2.length();
-        int i=0, j=0; // i text1 wali string per traverse krne ke liye or j text2 wali string per 
-        vector<vector<int>> dp(n1, vector<int>(n2, -1));
-        return solve(i,j, text1, text2, dp);
+        memset(t, -1, sizeof(t));
+        return solve(text1, text2, 0, 0);
     }
 };
