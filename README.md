@@ -624,4 +624,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Shankar-0707/DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Shankar-0707/DSA/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
