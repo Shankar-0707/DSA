@@ -636,4 +636,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/Shankar-0707/DSA/tree/master/1143-longest-common-subsequence) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Shankar-0707/DSA/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
