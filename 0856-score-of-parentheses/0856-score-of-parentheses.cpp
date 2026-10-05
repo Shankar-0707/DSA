@@ -41,27 +41,47 @@ public:
 
 
         // Method 2 using Stack 
-        stack<int> st;
-        st.push(0);
+        // stack<int> st;
+        // st.push(0);
 
-        for(int i=0; i<s.length(); i++){
-            if(s[i] == '('){
-                st.push(0);
-            }
+        // for(int i=0; i<s.length(); i++){
+        //     if(s[i] == '('){
+        //         st.push(0);
+        //     }
+        //     else{
+        //         if(st.top() == 0){
+        //             int score = 1;
+        //             st.pop();
+        //             st.top() += score;
+        //         }
+        //         else{
+        //             int score = 2* st.top();
+        //             st.pop();
+        //             st.top() += score;
+        //         }
+        //     }
+        // }
+
+        // return st.top();
+
+        // Method 3 using depth approach 
+
+        int depth = 0;
+        int answer = 0;
+        char prev = 'a';
+        for(int i = 0; i<s.length(); i++){
+            if(s[i] == '(') depth++;
             else{
-                if(st.top() == 0){
-                    int score = 1;
-                    st.pop();
-                    st.top() += score;
+                if(prev == '('){
+                    answer+= pow(2,depth-1);
                 }
-                else{
-                    int score = 2* st.top();
-                    st.pop();
-                    st.top() += score;
-                }
+                depth--;
             }
+
+            prev = s[i];
         }
 
-        return st.top();
+
+        return answer;
     }
 };
