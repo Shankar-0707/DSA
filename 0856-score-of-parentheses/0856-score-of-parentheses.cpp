@@ -34,9 +34,34 @@ public:
     }
 
     int scoreOfParentheses(string s) {
-        int start = 0;
-        int end = s.length() - 1;
+        // int start = 0;
+        // int end = s.length() - 1;
 
-        return solve(s, start, end);
+        // return solve(s, start, end);
+
+
+        // Method 2 using Stack 
+        stack<int> st;
+        st.push(0);
+
+        for(int i=0; i<s.length(); i++){
+            if(s[i] == '('){
+                st.push(0);
+            }
+            else{
+                if(st.top() == 0){
+                    int score = 1;
+                    st.pop();
+                    st.top() += score;
+                }
+                else{
+                    int score = 2* st.top();
+                    st.pop();
+                    st.top() += score;
+                }
+            }
+        }
+
+        return st.top();
     }
 };
