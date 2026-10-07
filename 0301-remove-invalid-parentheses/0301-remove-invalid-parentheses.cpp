@@ -37,7 +37,7 @@ public:
                 string str = q.front();
                 q.pop();
 
-                // check kro ki ye string valid h ya nhi
+                // yha m check krunga ki ye string valid h ya nhi so lets gooo
                 if (valid(str)) {
                     ans.push_back(str);
                     flag = true;
