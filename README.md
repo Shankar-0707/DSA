@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Shankar-0707/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Shankar-0707/DSA/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/Shankar-0707/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0686-repeated-string-match](https://github.com/Shankar-0707/DSA/tree/master/0686-repeated-string-match) |
 | [0856-score-of-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0856-score-of-parentheses) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Shankar-0707/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Shankar-0707/DSA/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0301-remove-invalid-parentheses) |
 | [0547-number-of-provinces](https://github.com/Shankar-0707/DSA/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Shankar-0707/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -596,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0022-generate-parentheses) |
 | [0131-palindrome-partitioning](https://github.com/Shankar-0707/DSA/tree/master/0131-palindrome-partitioning) |
+| [0301-remove-invalid-parentheses](https://github.com/Shankar-0707/DSA/tree/master/0301-remove-invalid-parentheses) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Shankar-0707/DSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Counting Sort
 |  |
