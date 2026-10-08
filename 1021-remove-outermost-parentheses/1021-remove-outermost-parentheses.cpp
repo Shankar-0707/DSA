@@ -1,46 +1,38 @@
 class Solution {
 public:
+    string remove(string &str){
+        if(str.length() == 0) return "";
+
+        return str.substr(1,str.length()-2);
+    }
+
     string removeOuterParentheses(string s) {
-        // m phle sare primitve decomposition find krunga 
+        string temp = "";
+        string ans = "";
         int open = 0;
         int close = 0;
-        vector<pair<int,int>> q;
-
         int n = s.length();
-        int starting = -1;
-        int closing = -1;
 
-        for(int i=0; i<n; i++){
-            if(open == 0) starting = i;
-
-
-            if(s[i] == '(') open++;
-            else{
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '(') {
+                open++;
+                temp += s[i];
+            } else {
                 close++;
+                temp += s[i];
             }
 
-            if(open == close){
-                closing = i;
-                q.push_back({starting, closing});
-                open = 0;
-                close = 0;
+            if (open == close) {
+                string toAdd = remove(temp);
+                ans += toAdd;
+                temp = "";
             }
         }
 
-        for(auto p : q){
-            cout << p.first << " , " << p.second << endl;
-        }
-
-        string ans = "";
-
-        for(auto p : q){
-            int first_index = p.first;
-            int second_index = p.second;
-
-            while(first_index+1 < second_index){
-                ans.push_back(s[first_index+1]);
-                first_index++;
-            }
+        if (open == close) {
+            string toAdd = remove(temp);
+            ans += toAdd;
+            temp = "";
         }
 
         return ans;
