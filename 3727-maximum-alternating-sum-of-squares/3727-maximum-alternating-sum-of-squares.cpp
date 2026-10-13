@@ -5,8 +5,8 @@ public:
             num = abs(num);
         }
 
-        sort(nums.begin(), nums.end());
-        reverse(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end(), greater<int>());
+        
 
         int n = nums.size();
         int i = 0;
