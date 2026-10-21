@@ -21,6 +21,18 @@ public:
         return;
     }
 
+    void dfs(vector<vector<int>> &adjList, int node, vector<int>& visited){
+        visited[node] = 1;
+
+        for(auto nbr : adjList[node]){
+            if(!visited[nbr]){
+                dfs(adjList, nbr, visited);
+            }
+        }
+
+        return;
+    }
+
     int findCircleNum(vector<vector<int>>& isConnected) {
         // I will make an adjancency list first
         int n = isConnected.size();
@@ -46,7 +58,7 @@ public:
 
         for(int i=1; i<=n; i++){
             if(!visited[i]){
-                bfs(adjList, i, visited);
+                dfs(adjList, i, visited);
                 provinces++;
             }
         }
