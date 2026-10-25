@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Shankar-0707/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1140-stone-game-ii](https://github.com/Shankar-0707/DSA/tree/master/1140-stone-game-ii) |
+| [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/Shankar-0707/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/Shankar-0707/DSA/tree/master/1386-cinema-seat-allocation) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/Shankar-0707/DSA/tree/master/0785-is-graph-bipartite) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [3310-remove-methods-from-project](https://github.com/Shankar-0707/DSA/tree/master/3310-remove-methods-from-project) |
 ## Binary Tree
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/Shankar-0707/DSA/tree/master/0785-is-graph-bipartite) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
+| [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [3310-remove-methods-from-project](https://github.com/Shankar-0707/DSA/tree/master/3310-remove-methods-from-project) |
 ## Binary Search Tree
 |  |
@@ -573,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Shankar-0707/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/Shankar-0707/DSA/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
+| [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
 ## Graph Theory
 |  |
@@ -600,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Shankar-0707/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Shankar-0707/DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Shankar-0707/DSA/tree/master/0785-is-graph-bipartite) |
+| [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Shankar-0707/DSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Greedy
 |  |
