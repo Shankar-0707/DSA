@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Shankar-0707/DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Shankar-0707/DSA/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Shankar-0707/DSA/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Shankar-0707/DSA/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Shankar-0707/DSA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Shankar-0707/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/Shankar-0707/DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [3310-remove-methods-from-project](https://github.com/Shankar-0707/DSA/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Tree
 |  |
 | ------- |
@@ -519,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [3310-remove-methods-from-project](https://github.com/Shankar-0707/DSA/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -578,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/Shankar-0707/DSA/tree/master/0994-rotting-oranges) |
 | [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Shankar-0707/DSA/tree/master/1260-shift-2d-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Graph Theory
 |  |
 | ------- |
@@ -606,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/Shankar-0707/DSA/tree/master/0785-is-graph-bipartite) |
 | [1254-number-of-closed-islands](https://github.com/Shankar-0707/DSA/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Shankar-0707/DSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Greedy
 |  |
 | ------- |
