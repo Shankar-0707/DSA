@@ -1,6 +1,6 @@
 class Solution {
 public:
-    typedef tuple<int, int, int>  T ;   // {dist, node, count}
+    typedef tuple<int, int, int>  T ;   
 
     int shortestPath(int n, vector<vector<int>>& edges, string labels, int k) {
 
@@ -13,7 +13,6 @@ public:
             adj[u].push_back({v, wt});
         }
 
-        // result[node][count] = min cost to reach node with 'count' consecutive identical chars
         vector<vector<int>> result(n, vector<int>(k + 1, INT_MAX));
 
         priority_queue<T, vector<T>, greater<T>> pq;
