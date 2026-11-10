@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Shankar-0707/DSA/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Shankar-0707/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Shankar-0707/DSA/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3693-climbing-stairs-ii](https://github.com/Shankar-0707/DSA/tree/master/3693-climbing-stairs-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Shankar-0707/DSA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Shankar-0707/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Shankar-0707/DSA/tree/master/3731-find-missing-elements) |
@@ -380,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-stone-game-iv](https://github.com/Shankar-0707/DSA/tree/master/1510-stone-game-iv) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Shankar-0707/DSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Shankar-0707/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3693-climbing-stairs-ii](https://github.com/Shankar-0707/DSA/tree/master/3693-climbing-stairs-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Shankar-0707/DSA/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Trie
 |  |
