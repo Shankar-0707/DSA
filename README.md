@@ -306,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Shankar-0707/DSA/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Shankar-0707/DSA/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Shankar-0707/DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Shankar-0707/DSA/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Shankar-0707/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3886-sum-of-sortable-integers](https://github.com/Shankar-0707/DSA/tree/master/3886-sum-of-sortable-integers) |
 ## Sliding Window
@@ -658,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Shankar-0707/DSA/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Shankar-0707/DSA/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Shankar-0707/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/Shankar-0707/DSA/tree/master/3789-minimum-cost-to-acquire-required-items) |
 ## Bit Manipulation
 |  |
 | ------- |
